@@ -14,6 +14,8 @@ info:
   description:
     $ref: ./info-description.md
 tags:
+  - name: Demo
+    description: Example of apis
   - name: Echo
     description: Example echo operations.
   - name: User
@@ -26,6 +28,8 @@ servers:
 paths:
   '/users/{username}':
     $ref: 'paths/users@{username}.yaml'
+  '/getusers/{user}':
+    $ref: 'paths/getusers@{username}.yaml'
   /echo:
     $ref: paths/echo.yaml
   /pathItem:

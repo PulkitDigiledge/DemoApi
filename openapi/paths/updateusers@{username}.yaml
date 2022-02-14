@@ -23,6 +23,11 @@ get:
       description: Search Email without filtering the email
       schema:
         type: boolean
+    - name: lastname
+      in: query
+      description: Displaying the LastName
+      schema:
+        type: string
   security:
     - main_auth:
         - 'read:users'

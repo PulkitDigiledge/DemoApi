@@ -28,7 +28,7 @@ servers:
 paths:
   '/users/{username}':
     $ref: 'paths/users@{username}.yaml'
-  '/getusers/{user}':
+  '/getusers/{username}':
     $ref: 'paths/getusers@{username}.yaml'
   /echo:
     $ref: paths/echo.yaml

@@ -6,11 +6,11 @@ parameters:
       type: boolean
 get:
   tags:
-    - User
+    - GetUser
   summary: Get user by user name
   description: |
-    This API is used to get all the content through the username
-  operationId: getUserByName
+    This API is used to get all the content of a particular User through the Username
+  operationId: getUserName
   parameters:
     - name: username
       in: path

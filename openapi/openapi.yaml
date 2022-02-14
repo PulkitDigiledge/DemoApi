@@ -28,6 +28,8 @@ servers:
 paths:
   '/users/{username}':
     $ref: 'paths/users@{username}.yaml'
+  '/updateusers/{username}':
+    $ref: 'paths/updateusers@{username}.yaml'
   '/getusers/{username}':
     $ref: 'paths/getusers@{username}.yaml'
   /echo:
